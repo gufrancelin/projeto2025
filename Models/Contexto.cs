@@ -3,5 +3,6 @@
     public class Contexto
     {
         // public int Id { get; set; }
+        // public int contador {get;set}
     }
 }
