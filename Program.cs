@@ -6,6 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<Contexto>
    (options => options.UseSqlServer("Data Source=SB-1500\\JCXPJAU;Initial Catalog = ComuniQBD;Integrated Security = True;TrustServerCertificate = True"));
 
+builder.Services.AddDbContext<Contexto>
+   (options => options.UseSqlServer("Data Source=SB-1490623\\JCXPJAU;Initial Catalog = ComuniQBD;Integrated Security = True;TrustServerCertificate = True"));
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
